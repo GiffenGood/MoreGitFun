@@ -18,6 +18,7 @@ namespace MoreGitFun
         private static void Printer(string arg)
         {
             Console.WriteLine(arg);
+            Console.WriteLine(".....");
         }
     }
 }
