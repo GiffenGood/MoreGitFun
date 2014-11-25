@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MoreGitFun
 {
@@ -18,7 +14,7 @@ namespace MoreGitFun
         private static void Printer(string arg)
         {
             Console.WriteLine(arg);
-            Console.WriteLine(".....");
+            Console.WriteLine("....!");
         }
     }
 }
