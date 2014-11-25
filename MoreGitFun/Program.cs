@@ -11,8 +11,13 @@ namespace MoreGitFun
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine("Yet More changes");
+            Printer("Yet More changes");
             Console.ReadLine();
+        }
+
+        private static void Printer(string arg)
+        {
+            Console.WriteLine(arg);
         }
     }
 }
